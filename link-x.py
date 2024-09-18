@@ -64,10 +64,10 @@ def logo():
     print("\033[94m│           \033[92m▌  ▐ ▌ ▌▛▚      ▞▝▖\033[94m          │".center(columns+14))
     print("\033[94m│           \033[92m▀▀▘▀▘▘ ▘▘ ▘     ▘ ▘\033[94m          │".center(columns+14))
     print("\033[94m│                              \033[94m          │".center(columns+8))
-    print("\033[94m│ \033[95mAuthor : ToxicNoob Inc.                \033[94m│".center(columns+14))
-    print("│ \033[95mTool   : Hack With Link                \033[94m│".center(columns+8))
-    print("│ \033[95mGitHub : https://github.com/Toxic-Noob \033[94m│".center(columns+8))
-    print("│ \033[95mCoder  : HunterSl4d3             \033[37mV2.0  \033[94m│".center(columns+14))
+    print("\033[94m│ \033[95mᴀᴜᴛʜᴏʀ : ᴀʙʜɪ ʏᴀᴅᴀᴠ.                \033[94m│".center(columns+14))
+    print("│ \033[95mTool   : ʜᴀᴄᴋ ᴡɪᴛʜ ʟɪɴᴋ                \033[94m│".center(columns+8))
+    print("│ \033[95mʏᴏᴜᴛᴜʙᴇ  : https://www.youtube.com/@Abhi_tricker \033[94m│".center(columns+8))
+    print("│ \033[95mᴄᴏᴅᴇʀ  : ᴀʙʜɪ ʏᴀᴅᴀᴠ             \033[37mV2.0  \033[94m│".center(columns+14))
     print("\033[94m└────────────────────────────────────────┘".center(columns+4))
 
 # Kill All Process
