@@ -2,8 +2,8 @@
 About Tool:
     Name : Link-X
     Description : Camera, Voice, Clipboard (etc...) Grabber
-    Author : Abhi yadav.
-    YOUTUBE  : https://www.youtube.com/@Abhi_tricker
+    Author : ToxicNoob Inc.
+    GitHub : https://github.com/Toxic-Noob
     Veesion : 2.0
 
 More Description:
@@ -58,16 +58,16 @@ def psb(z, end = "\n"):
 # Logo
 def logo():
     os.system("clear")
-░█████╗░░█████╗░███╗░░░███╗███████╗██████╗░░█████╗░
-██╔══██╗██╔══██╗████╗░████║██╔════╝██╔══██╗██╔══██╗
-██║░░╚═╝███████║██╔████╔██║█████╗░░██████╔╝███████║
-██║░░██╗██╔══██║██║╚██╔╝██║██╔══╝░░██╔══██╗██╔══██║
-╚█████╔╝██║░░██║██║░╚═╝░██║███████╗██║░░██║██║░░██║
-░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝
-    print("\033[94m│ \033[95mᴀᴜᴛʜᴏʀ : ᴀʙʜɪ ʏᴀᴅᴀᴠ.                \033[94m│".center(columns+14))
-    print("│ \033[95mᴛᴏᴏʟ   :                   ʜᴀᴄᴋ ᴡɪᴛʜ ʟɪɴᴋ                \033[94m│".center(columns+8))
-    print("│ \033[95mʏᴏᴜᴛᴜʙᴇ  :           https://www.youtube.com/@Abhi_tricker \033[94m│".center(columns+8))
-    print("│ \033[95mᴄᴏᴅᴇʀ  :              ᴀʙʜɪ ʏᴀᴅᴀᴠ             \033[37mV2.0  \033[94m│".center(columns+14))
+    print("\033[94m┌────────────────────────────────────────┐".center(columns+4))
+    print("\033[94m│           \033[92m▌  ▗    ▌       ▌ ▌\033[94m          │".center(columns+14))
+    print("\033[94m│           \033[92m▌  ▄ ▛▀▖▌▗▘ ▄▄▖ ▝▞ \033[94m          │".center(columns+14))
+    print("\033[94m│           \033[92m▌  ▐ ▌ ▌▛▚      ▞▝▖\033[94m          │".center(columns+14))
+    print("\033[94m│           \033[92m▀▀▘▀▘▘ ▘▘ ▘     ▘ ▘\033[94m          │".center(columns+14))
+    print("\033[94m│                              \033[94m          │".center(columns+8))
+    print("\033[94m│ \033[95mAuthor : ToxicNoob Inc.                \033[94m│".center(columns+14))
+    print("│ \033[95mTool   : Hack With Link                \033[94m│".center(columns+8))
+    print("│ \033[95mGitHub : https://github.com/Toxic-Noob \033[94m│".center(columns+8))
+    print("│ \033[95mCoder  : HunterSl4d3             \033[37mV2.0  \033[94m│".center(columns+14))
     print("\033[94m└────────────────────────────────────────┘".center(columns+4))
 
 # Kill All Process
@@ -454,30 +454,30 @@ def startProcess():
 def menu():
     logo()
     psb("\n    cWhite[cGreen*cWhite] Choose Your Option: \n")
-    cPrint("    [cGreen02cblue] ᴄᴀᴍᴇʀᴀ ʜᴀᴄᴋ")
-    cPrint("    [cGreen02cblue] ᴠᴏɪᴄᴇ ʜᴀᴄᴋ")
-    cPrint("    [cGreen02cblue] ᴄʟɪᴘʙᴏʀᴅ ʜᴀᴄᴋ")
-    cPrint("    [cGreen02cblue] ʟᴏᴄᴀᴛɪᴏɴ ʜᴀᴄᴋ")
-    cPrint("    [cGreen02cblue] ᴘᴀꜱᴛᴇᴊᴀᴄᴋɪɴɢ")
-    cPrint("    [cGreen02cblue] ɢᴇᴛ ᴠɪᴄᴛɪᴍ ᴅᴇᴠɪᴄᴇ ᴅᴇᴛᴀɪʟꜱ")
-    cPrint("    [cGreen02cblue] ᴇᴍʙᴇᴅ ᴍᴇᴛʜᴏᴅꜱ (cGreenᴄᴏᴍɪɴ ꜱᴏᴏɴ. .cWhite)")
-    cPrint("    [cGreen02cblue] ᴜᴘᴀᴅᴛᴇ ᴛᴏᴏʟ")
-    cPrint("    [cGreen02cblue] Exit")
+    cPrint("    [cGreen01cWhite] Camera Hack")
+    cPrint("    [cGreen02cWhite] Voice Hack")
+    cPrint("    [cGreen03cWhite] Clipboard Hack")
+    cPrint("    [cGreen04cWhite] Location Hack")
+    cPrint("    [cGreen05cWhite] Pastejacking")
+    cPrint("    [cGreen06cWhite] Get Victim Device Details")
+    cPrint("    [cGreen07cWhite] Embed Methods (cGreenComing SooncWhite)")
+    cPrint("    [cGreen08cWhite] Update Tool")
+    cPrint("    [cGreen00cWhite] Exit")
     
-    op = input(cPrint("\n    [cGreen*cWhite] ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ : cGreen", True))
+    op = input(cPrint("\n    [cGreen*cWhite] Enter Your Choice:> cGreen", True))
     
     if (op == "00") or (op == "0"):
         sys.exit("")
     
     while not op in ["0", "1", "2", "3", "4", "5", "6", "7", "8"]:
         psb("\n    cWhite[cRed!cWhite] Wrong Choice!")
-        op = input(cPrint("\n    [cGreen*cWhite] ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ :  cGreen", True))
+        op = input(cPrint("\n    [cGreen*cWhite] Enter Your Choice:> cGreen", True))
         op = op.replace("0", "") if not (op == "00") else "0"
     
     if (op == "7"):
-        cPrint("\n    cWhite[cGreen*cWhite] ᴍᴇᴛʜᴏᴅꜱ ɪꜱ ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ...")
+        cPrint("\n    cWhite[cGreen*cWhite] Method is Coming Soon...")
         time.sleep(1)
-        input(cPrint(" \n    [cGreen*cWhite] ᴘʀᴇꜱꜱ ᴇɴᴛᴇʀ ɢᴏ ʙᴀᴄᴋ...", True))
+        input(cPrint(" \n    [cGreen*cWhite] Press Enter to Go Back...", True))
         menu()
         sys.exit()
     elif (op == "8"):
