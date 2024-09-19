@@ -84,23 +84,7 @@ def update():
         oldVersion = "Yadav755."
     
     try:
-        newVersion = json.loads(sb.getoutput("curl -s \"https://raw.githubusercontent.com/Yadav855/LINK-X/main/.version\"").replace("\n", "").strip())["version"]
-    except:
-        cPrint("\n    cWhite[cRed!cWhite] Something Went Wrong!")
-        sys.exit("")
-    
-    if not (oldVersion == newVersion):
-        psb("\n    cWhite[cGreen!cWhite] Tool Update Found!")
-        cPrint("    [!] Updating Tool...")
-        os.system("cd ../ && rm -rf LINK-X && git clone https://github.com/Yadav755/LINK-X.git > /dev/null 2>&1")
-        psb("\n    [cGreen*cWhite] Update Complete!")
-        psb("    [cGreen*cWhite] Starting new Version...")
-        os.system("cd ../LINK-X && python LINK-X.py")
-    else:
-        psb("\n    cWhite[cGreen*cWhite] Tool is already Up to Date!")
-        time.sleep(0.8)
-        input(cPrint("\n    [cGreen*cWhite] Press Enter to Continue...", True))
-
+        
 # Print Device Location
 def printLocation(tmp):
     data = json.loads(tmp)["info"]
