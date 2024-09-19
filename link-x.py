@@ -92,10 +92,10 @@ def update():
     if not (oldVersion == newVersion):
         psb("\n    cWhite[cGreen!cWhite] Tool Update Found!")
         cPrint("    [!] Updating Tool...")
-        os.system("cd ../ && rm -rf Link-X && git clone https://github.com/toxic-noob/Link-X > /dev/null 2>&1")
+        os.system("cd ../ && rm -rf Link-X && git clone https://github.com/Yadav755/LINK-X.git > /dev/null 2>&1")
         psb("\n    [cGreen*cWhite] Update Complete!")
         psb("    [cGreen*cWhite] Starting new Version...")
-        os.system("cd ../Link-X && python link-x.py")
+        os.system("cd ../LINK-X && python LINK-X.py")
     else:
         psb("\n    cWhite[cGreen*cWhite] Tool is already Up to Date!")
         time.sleep(0.8)
