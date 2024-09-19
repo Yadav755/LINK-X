@@ -81,10 +81,10 @@ def update():
     try:
         oldVersion = json.loads(open(".version", "r").read())["version"]
     except:
-        oldVersion = "ToxicNoob Inc."
+        oldVersion = "Yadav755."
     
     try:
-        newVersion = json.loads(sb.getoutput("curl -s \"https://raw.githubusercontent.com/Toxic-Noob/Link-X/main/.version\"").replace("\n", "").strip())["version"]
+        newVersion = json.loads(sb.getoutput("curl -s \"https://raw.githubusercontent.com/Yadav855/LINK-X/main/.version\"").replace("\n", "").strip())["version"]
     except:
         cPrint("\n    cWhite[cRed!cWhite] Something Went Wrong!")
         sys.exit("")
